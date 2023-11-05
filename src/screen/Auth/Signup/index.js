@@ -134,7 +134,7 @@ const Signup = props => {
                   inputStyle={styles.inputStyle}
                   label="Phone Number"
                   input={errors.phonenumber ? styles.inputContainerStyle : null}
-                  placeholder="Enter your full name "
+                  placeholder="Enter your phone number "
                   keyboardType="numeric"
                   value={values.phonenumber}
                   maxLength={11}
@@ -170,7 +170,7 @@ const Signup = props => {
                   label="Password"
                   // star={errors.password ? true : false}
                   input={errors.password ? styles.inputContainerStyle : null}
-                  placeholder="Enter password"
+                  placeholder="Enter your password"
                   value={values.password}
                   onChangeText={handleChange('password')}
                   onBlur={handleBlur('password')}

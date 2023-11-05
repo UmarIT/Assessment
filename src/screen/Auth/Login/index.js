@@ -139,7 +139,7 @@ const Login = props => {
                   label="Password"
                   // star={errors.password ? true : false}
                   input={errors.password ? styles.inputContainerStyle : null}
-                  placeholder="Enter password"
+                  placeholder="Enter your password"
                   value={values.password}
                   onChangeText={handleChange('password')}
                   onBlur={handleBlur('password')}
