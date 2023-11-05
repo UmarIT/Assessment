@@ -38,8 +38,7 @@ export const borders = {
 export const fontFamily = {};
 
 export const baseUrl = {
-  // apiUrl: 'https://froxx-api.stackup.solutions',
-  apiUrl: 'https://api.froxx.io/',
-  // apiUrl: 'https://7da0-103-177-241-42.ngrok-free.app/',
+  apiUrl: '',
+
   imgUrl: '',
 };
